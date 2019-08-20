@@ -15,5 +15,10 @@
 - Routing
 
 # Section 2: Angular Material
-- Link: https://material.angular.io/
-- Workspace: 
+- Getting Started Link: https://material.angular.io/
+- Material GitHub reference: https://github.com/angular/material
+- Angular Flex Layout reference: https://github.com/angular/flex-layout
+- Workspace: https://github.com/tdiderich/angular-class/tree/master/angular-material
+- Import Angular Material
+- Import Angular Flex Layout
+- 
