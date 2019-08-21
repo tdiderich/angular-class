@@ -15,6 +15,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+import { NewTrainingComponent } from './training/new-training/new-training.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
     CurrentTrainingComponent,
     WelcomeComponent,
     HeaderComponent,
-    SidenavListComponent
+    SidenavListComponent,
+    NewTrainingComponent
   ],
   imports: [
     BrowserModule,

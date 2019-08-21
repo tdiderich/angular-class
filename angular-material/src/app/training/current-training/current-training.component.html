@@ -1,1 +1,6 @@
-<p>current-training works!</p>
+<section fxLayout="column" fxLayoutAlign="center" class="current-training">
+    <h1>{{ progress }} % done!</h1>
+    <mat-progress-bar mode="determinate" [value]="progress"></mat-progress-bar>
+    <p>Keep up the hard work!</p>
+    <button mat-raised-button color="accent" (click)="onStop()">Stop training</button>
+</section>
