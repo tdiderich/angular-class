@@ -10,7 +10,8 @@ import {
     MatSidenavModule,
     MatToolbarModule,
     MatListModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatTabsModule
 } from "@angular/material";
 
 @NgModule({
@@ -25,7 +26,8 @@ import {
         MatSidenavModule,
         MatToolbarModule,
         MatListModule,
-        MatTooltipModule],
+        MatTooltipModule,
+        MatTabsModule],
     exports: [
         MatButtonModule, 
         MatIconModule, 
@@ -37,7 +39,8 @@ import {
         MatSidenavModule,
         MatToolbarModule,
         MatListModule,
-        MatTooltipModule]
+        MatTooltipModule,
+        MatTabsModule]
 }
 )
 export class MaterialModule{}
