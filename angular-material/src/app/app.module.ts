@@ -16,6 +16,7 @@ import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import { NewTrainingComponent } from './training/new-training/new-training.component';
+import { StopTrainingComponent } from './training/current-training/stop-training/stop-training.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { NewTrainingComponent } from './training/new-training/new-training.compo
     WelcomeComponent,
     HeaderComponent,
     SidenavListComponent,
-    NewTrainingComponent
+    NewTrainingComponent,
+    StopTrainingComponent
   ],
   imports: [
     BrowserModule,
@@ -39,6 +41,7 @@ import { NewTrainingComponent } from './training/new-training/new-training.compo
     FormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [StopTrainingComponent]
 })
 export class AppModule { }

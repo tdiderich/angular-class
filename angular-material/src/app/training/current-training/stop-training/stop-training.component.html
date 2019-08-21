@@ -1,0 +1,8 @@
+<h1>Are you sure you want to quit?</h1>
+<mat-dialog-content>
+    <p>You already finished {{ passedData.progress }}%</p> 
+</mat-dialog-content>
+<mat-dialog-actions>
+    <button mat-raised-button color="primary" [mat-dialog-close]="false">Keep going</button>
+    <button mat-button [mat-dialog-close]="true">End workout</button>
+</mat-dialog-actions>
