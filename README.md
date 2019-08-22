@@ -40,8 +40,7 @@
   - Import the service to your component 
   - Grab data with ngOnInit
   - Use ngFor if you're displaying all the data
--   
+- Added data table w/ pagination, filtering, and sorting
 
-
-- Pass exercise id back to the current-training page
-- Pass ongoingTraining booean back and forth to start / stop the workout 
+# Section 6: Using Angularfire and Firebase
+- 
