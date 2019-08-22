@@ -30,3 +30,14 @@
 # Section 5: Working with Data
 - Workspace: https://github.com/tdiderich/angular-class/tree/master/angular-material
 - Adding services to start using real data
+- Authentication service created 
+- Authentication guards added
+- Navifation shows proper links based on if the user is logged in
+- Added training service to display real data
+- Serving data (no server)
+  - Create data model
+  - Create service to serve the data
+  - Import the service to your component 
+  - Grab data with ngOnInit
+  - Use ngFor if you're displaying all the data
+-   
