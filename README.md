@@ -34,10 +34,14 @@
 - Authentication guards added
 - Navifation shows proper links based on if the user is logged in
 - Added training service to display real data
-- Serving data (no server)
+- Serving dummy data
   - Create data model
   - Create service to serve the data
   - Import the service to your component 
   - Grab data with ngOnInit
   - Use ngFor if you're displaying all the data
 -   
+
+
+- Pass exercise id back to the current-training page
+- Pass ongoingTraining booean back and forth to start / stop the workout 
